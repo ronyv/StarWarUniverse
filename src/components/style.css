@@ -1,0 +1,21 @@
+.character-card {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid grey;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.character-card:hover {
+    background: rgb(242, 241, 241);
+}
+
+.card-item {
+    flex: 1;
+}
+
+.card-label {
+    font-size: smaller;
+}

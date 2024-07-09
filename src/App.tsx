@@ -12,7 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<CharacterList />} />
-          <Route path=":characterId/detail" element={<CharacterDetail />} />
+          <Route path=":personId/details" element={<CharacterDetail />} />
         </Route>
       </Routes>
   </BrowserRouter>

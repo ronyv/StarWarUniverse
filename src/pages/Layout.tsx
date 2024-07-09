@@ -1,12 +1,11 @@
 import { Outlet, Link } from "react-router-dom";
+import './style.css'
 
 const Layout = () => {
   return (
     <>
-      <nav>
+      <nav className="mainNav">
         <Link to="/">Home</Link>
-        &nbsp;&nbsp;&nbsp;
-        <Link to="/123/detail">Detail</Link>
       </nav>
 
       <Outlet />
