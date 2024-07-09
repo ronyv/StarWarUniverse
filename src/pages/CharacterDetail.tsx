@@ -3,7 +3,7 @@ import People from "../interface/People";
 import { useParams } from "react-router-dom";
 import { fetchAllCharacterFilms, fetchData } from "../api/ApiHelper";
 import { ENDPOINT } from "../Constants";
-import './style.css'
+import './style.css';
 import Planet from "../interface/Planet";
 import Film from "../interface/Film";
 

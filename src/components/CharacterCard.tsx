@@ -18,7 +18,7 @@ const CharacterCard: React.FC<CharacterCardProps> = ({ data, planets }) => {
     }
 
     return (
-        <div className='character-card' onClick={goToDetailPage}>
+        <div data-testid={`navigate-details-${data.name}`} className='character-card' onClick={goToDetailPage}>
             <span className='card-item'><strong>{data.name}</strong></span>
             <span className='card-item'><span className='card-label'>Gender:</span> <b>{data.gender}</b></span>
             <span className='card-item'><span className='card-label'>Home planet:</span> <b>{planets[data.homeworld]?.name ?? ''}</b></span>

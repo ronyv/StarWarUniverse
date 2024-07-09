@@ -3,7 +3,7 @@ import './style.css';
 import { fetchAllHomePlanets, fetchData } from '../api/ApiHelper';
 import { ENDPOINT } from '../Constants';
 import CharacterCard from '../components/CharacterCard';
-import People from '../interface/People'
+import People from '../interface/People';
 import PeopleResponse from '../interface/PeopleResponse';
 import Planet from '../interface/Planet';
 
@@ -12,9 +12,9 @@ const CharacterList = () => {
     const [apiError, setApiError] = useState<string | undefined>(undefined);
     const [homePlanetMap, setHomePlanetMap] = useState<Record<string, Planet>>({});
 
-    const getPeople = () => {
+    const getPeople = (url: string) => {
         console.log('fetchPeople:')
-        fetchData(`${ENDPOINT}/people`)
+        fetchData(url)
         .then((response) => {
             console.log('res: ', response)
             setPeopleResponse((response as PeopleResponse));
@@ -43,7 +43,7 @@ const CharacterList = () => {
     }
 
     useEffect(() => {
-        getPeople()
+        getPeople(`${ENDPOINT}/people?page=1`)
     }, [])
 
     useEffect(() => {
