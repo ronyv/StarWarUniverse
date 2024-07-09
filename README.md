@@ -1,10 +1,22 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Notes
+• Character list view :white_check_mark:
+• List characters from the Star Wars universe (name, gender &amp; home
+planet, people/?page=1 would suffice). :white_check_mark:
+• Clicking a list entry should navigate to the character details page
+Character details view :white_check_mark:
+• display: name, hair colour, eye colour, gender and home planet and list
+the films that the character has appeared in :white_check_mark:
+• Add appropriate unit tests :construction:
 
-## Available Scripts
+## Setup Instructions
 
 In the project directory, you can run:
+
+
+### `npm install`
+
+Installs all required dependencies for the app.
 
 ### `npm start`
 
