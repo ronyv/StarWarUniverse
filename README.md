@@ -1,5 +1,5 @@
 
-## Notes
+## What's done:
 - Character list view :white_check_mark:
 - List characters from the Star Wars universe (name, gender &amp; home
 planet, people/?page=1 would suffice). :white_check_mark:
@@ -8,6 +8,19 @@ Character details view :white_check_mark:
 - display: name, hair colour, eye colour, gender and home planet and list
 the films that the character has appeared in :white_check_mark:
 - Add appropriate unit tests :construction:
+
+## What's pending
+- Unit tests for Character details page.
+- Unit tests: Improve code coverage
+- Responsiveness needs to be validated and fine tuned.
+- Provide the ability to amend the height or gender of a character
+- Add e2e tests
+
+### Screenshot 1: Character listing page
+<img width="1439" alt="image" src="https://github.com/ronyv/StarWarUniverse/assets/15177814/9a016165-e893-4b97-9454-22cf12f040ce">
+
+### Screenshot 2: Character details page
+<img width="1438" alt="image" src="https://github.com/ronyv/StarWarUniverse/assets/15177814/af7fa97f-9e70-49f8-bcba-ffdc731d1bba">
 
 ## Setup Instructions
 
