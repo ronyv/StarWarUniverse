@@ -1,4 +1,7 @@
 
+# Star Wars universe - Character details: webapp using swapi.dev API.
+``Author: Rony varghese``
+
 ## What's done:
 - Character list view :white_check_mark:
 - List characters from the Star Wars universe (name, gender &amp; home
